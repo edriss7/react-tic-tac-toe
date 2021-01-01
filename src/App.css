@@ -65,7 +65,7 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
+  background: lightblue;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -84,7 +84,7 @@ ol, ul {
 }
 
 .square:hover {
-  background-color: yellow;
+  background-color: darkcyan;
 }
 
 .kbd-navigation .square:focus {
@@ -94,6 +94,7 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  background: yellow;
 }
 
 .game-info {
