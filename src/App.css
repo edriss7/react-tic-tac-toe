@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -62,16 +71,20 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  height: 70px;
+  width: 70px;
 }
 
 .square:focus {
   outline: none;
+}
+
+.square:hover {
+  background-color: yellow;
 }
 
 .kbd-navigation .square:focus {
