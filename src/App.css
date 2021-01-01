@@ -100,3 +100,16 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.game-info button {
+  width: 100%;
+}
+
+.winner {
+  background-color: darkorange;
+
+}
+
+.who_is_next {
+  background-color: orchid;
+}

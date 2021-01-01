@@ -58,10 +58,13 @@ export default class Game extends React.Component {
       });
   
       let status;
+      let status_class;
       if (winner) {
         status = "Winner: " + winner;
+        status_class="winner";
       } else {
         status = "Next player: " + (this.state.xIsNext ? "X" : "O");
+        status_class="who_is_next";
       }
   
       return (
@@ -73,7 +76,7 @@ export default class Game extends React.Component {
             />
           </div>
           <div className="game-info">
-            <div>{status}</div>
+            <div class={status_class}>{status}</div>
             <ol>{moves}</ol>
           </div>
         </div>
