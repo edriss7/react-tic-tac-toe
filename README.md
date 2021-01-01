@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe is a classic game.
+
+In order to win the game, a player must place three of their marks in a horizontal, vertical, or diagonal row.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
